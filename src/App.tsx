@@ -9,6 +9,7 @@ interface IAppProps {}
 const App: React.FunctionComponent<IAppProps> = () => {
   return (
     <UserAuthProvider>
+      <title>Media Web</title>
       <RouterProvider router={router} />
     </UserAuthProvider>
   );
